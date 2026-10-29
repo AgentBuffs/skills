@@ -1,0 +1,15 @@
+{
+  "name": "agentbuffs",
+  "owner": {
+    "name": "AgentBuffs",
+    "url": "https://agentbuffs.com"
+  },
+  "description": "The AgentBuffs plugin: find MCP servers and agent skills for a job, ranked, with install config.",
+  "plugins": [
+    {
+      "name": "agentbuffs",
+      "source": "./",
+      "description": "Find MCP servers and agent skills for a job on agentbuffs.com, ranked, with install config for your client."
+    }
+  ]
+}
