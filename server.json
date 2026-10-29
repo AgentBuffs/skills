@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.agentbuffs/agentbuffs",
+  "title": "AgentBuffs",
+  "description": "Find MCP servers and agent skills for a job, ranked, with install config for your client.",
+  "version": "1.0.0",
+  "websiteUrl": "https://agentbuffs.com",
+  "repository": {
+    "url": "https://github.com/AgentBuffs/skills",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentbuffs.com/api/mcp"
+    }
+  ]
+}
