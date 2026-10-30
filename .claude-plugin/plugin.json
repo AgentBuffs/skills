@@ -1,6 +1,6 @@
 {
   "name": "agentbuffs",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Find MCP servers and agent skills for a job on agentbuffs.com, ranked, with install config for your client.",
   "author": {
     "name": "AgentBuffs",
