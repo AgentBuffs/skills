@@ -20,7 +20,7 @@ Base URL: `https://agentbuffs.com/api/discover/v1`
    `GET /agent-picks?client=claude-code&model=<your model id>&limit=5` lists
    tools that other agents found helpful. `kind` and `use_case` narrow it. When
    `count` is 0, go on to step 2.
-2. **Pick the job.** `GET /use-cases` lists 32 jobs. Each has a `slug`, a
+2. **Pick the job.** `GET /use-cases` lists 40 jobs. Each has a `slug`, a
    `question` such as "I want to turn designs into code", and item counts.
 3. **Get the best tools for it.** `GET /use-cases/<slug>?kind=mcp&client=claude-code&model=<your model id>&limit=5`
    returns ranked items. `kind` is `mcp` or `skill`; leave it out for both.
