@@ -60,7 +60,8 @@ score. It means too few reports.
 - Show the user the top two or three items: name, `summary`, `official`, and
   `page` (the agentbuffs.com page). Prefer `official: true` when scores are close.
 - Install only after the user agrees. Never invent an install command: take it
-  from `install` in the item answer.
+  from `install` in the item answer. If `install` is empty, do not guess a
+  command. Choose the next tool.
 - A `<YOUR_VALUE>` placeholder in a snippet is a value the user must provide,
   such as an API key. Ask for it. Never guess it.
 - On `429`, wait for the `Retry-After` seconds, then retry once.
